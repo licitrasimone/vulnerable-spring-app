@@ -12,15 +12,16 @@ $ npm run dev
 
 # Vulnerability
 
-* 2 SQL Injection (A03 Injection)
-* 1 Spoof Cookie  (A01 Broken Access Conrol)
-* 2 XSS Injection (A03 Injection)
-* 1 SSRF (A10 SSRF)
-* 1 Sensitive Information into Log File (A09 Logging and monitoring Failure)
-* 1 XEE (A05 Security Misconfiguration)
-* 1 Command Injection (A03 Injection)
-* 1 Unsalted Hash (A02 Cryptogrphy)
-* 1 Insecure Deserialization
+* 2 SQL Injections (A03:2021 Injection)
+* 1 Cookie poisoning (A01:2021 Broken Access Control)
+* 3 XSS Injections (A03:2021 Injection)
+* 1 SSRF (A10:2021 Server-Side Request Forgery)
+* 1 Sensitive Information into Log File (A09:2021 Logging and Monitoring
+Failure)
+* 1 XEE (A05:2021 Security Misconfiguration)
+* 1 Command Injection (A03:2021 Injection)
+* 1 Use of a One-Way Hash without a Salt (A02:2021 Cryptographic Failures)
+* 1 Insecure Deserialization (A08:2021 Software and Data Integrity Failures)
 
 
 
